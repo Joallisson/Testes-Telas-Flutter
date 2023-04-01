@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:teste_app_flutter/pages/drop_page.dart';
+import 'package:teste_app_flutter/pages/home_page.dart';
 
 void main() {
   runApp(const PrimeiraTela());
@@ -16,7 +16,7 @@ class PrimeiraTela extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DropPage(),
+      home: HomePage(),
     );
   }
 }
